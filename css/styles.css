@@ -207,12 +207,6 @@ gap: 10px;
   fill: currentColor;
 }
 
-
-
-.header-phone {
-  margin-right: 50px;
-}
-
 /* Hero section */
 
 .hero {
@@ -389,15 +383,13 @@ box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
 /* Clients */
 
 .clients-list {
-  display: flex;
-      gap: 30px;
+  --card-item: 6;
 }
 
 .clients-link {
   display: flex;
   align-items: center;
     justify-content: center;
-  width: 170px;
     height: 92px;
   color: var(--icons-cl);
   border: 1px solid var(--icons-cl);
@@ -458,10 +450,11 @@ margin-bottom: 9px;
 }
 
 .social-title {
+    font-size: 14px;
+        margin-bottom: 20px;
   line-height: calc(16 / 14);
     text-transform: uppercase;
-    color: var(--secondary-txt-cl);
-margin-bottom: 20px;
+  color: var(--secondary-txt-cl);
 }
 
 
@@ -495,10 +488,8 @@ background-color: var(--accent-txt-cl);
 }
 
 .footer-socials {
+  color: var(--light-bg-cl);
   background-color: var(--footer-socials-bg-cl);
 }
 
-.footer-icon {
-  fill: var(--light-bg-cl);
-}
 
